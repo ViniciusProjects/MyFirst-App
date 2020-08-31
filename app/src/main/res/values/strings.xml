@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
-    <string name="botao_jogar" >Jogar</string>
+    <string name="button_play" >Play</string>
+    <string name="choice" >choice</string>
+    <string name="choose_a_number_from_0_to_10">Choose a number from 0 to 10</string>
+    <string name="no_number_selected">No number selected</string>
 </resources>

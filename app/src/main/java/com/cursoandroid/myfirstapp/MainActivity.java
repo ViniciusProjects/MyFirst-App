@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void sortear (View view) {
-        TextView texto = findViewById(R.id.textoResultado);
-      int numeroAleatorio = new Random().nextInt(11);
-      texto.setText("Número gerado: " + numeroAleatorio);
+    public void draw (View view) {
+        TextView tv = findViewById(R.id.textResult);
+      int randomNumber = new Random().nextInt(11);
+        tv.setText("Generated Number:" + randomNumber);
       }
     }
 
